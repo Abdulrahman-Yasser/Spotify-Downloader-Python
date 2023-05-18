@@ -1,9 +1,10 @@
-# Youtube-Downloader-Python
-this repo contains a program that allows me to automate any added song into a specific youtube-library to be downloaded . So i can download the song whenever i want just by adding it to the chosen youtube-library
+# Spotify-Downloader-Python
+this repo contains a program that allows me to automate any added song into a specific Spotify-playlist to be downloaded . So i can download the song whenever i want just by adding it to the chosen Spotify-library
 ## all you need to change to make it yours
 <ul>
-  <li>Delete <code>data.pckl</code> file</li>
+  <li>Delete <code>prv.pckl</code> file, the problem here that each playlist will need an object, and each object will need a pickle file. So it's a bad strategy but it works</li>
   <li>change the two variables <code>SAVE_FILE</code>, <code>MY_URL</code></li>
+  <li>you need to write your own Variables for the Credentials, my way was writing the variables in different text file just for privacy.<br> you can make your own file and put it where ever you want but make sure to read it in the code <br><img src='https://github.com/Abdulrahman-Yasser/Spotify-Downloader-Python/assets/63866803/4203dbf5-10c0-438b-86fb-b2af5419e244'></li>  
 </ul>
 
 ### To automate it in your PC
